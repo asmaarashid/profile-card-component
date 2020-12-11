@@ -7,7 +7,7 @@
 }
 body{
   font-family: 'Kumbh Sans', sans-serif;
-  background: url("../images/bg-pattern-top.svg") right 50vw bottom 40vh no-repeat, url("../images/bg-pattern-bottom.svg") left 50vw top 40vh no-repeat;
+  background: url("../images/bg-pattern-top.svg") right 50vw bottom 40vh no-repeat, url("../images/bg-pattern-bottom.svg") left 55vw top 40vh no-repeat;
   background-color: var(--dark-cyan);
   min-height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@ body{
 }
 .row{
   height: auto;
-  width: 330px;
+  width: 350px;
   border-style: hidden;
   /* border-color: black; */
   /* border-width: thin; */
@@ -30,7 +30,7 @@ body{
   overflow: hidden;
 }
 .card-top{
-  height: 135px;
+  height: 150px;
   background-image: url("../images/bg-pattern-card.svg");
   display: block;
   display: flex;
@@ -38,7 +38,7 @@ body{
   align-items: flex-end;
 }
 .card-name{
-  height: 140px;
+  height: 155px;
   background-color: white;
   text-align: center;
   border-bottom: 1px solid rgba(153,153,153,0.4);
@@ -47,7 +47,7 @@ body{
   margin-top: 80px;
 }
 .card-info{
-  height: 70px;
+  height: 90px;
   background-color: white;
   display: flex;
   flex-direction: row;
