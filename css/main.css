@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url("../images/bg-pattern-top.svg") right 50vw bottom 40vh no-repeat, url("../images/bg-pattern-bottom.svg") left 50vw top 40vh no-repeat;
+  background-color: var(--dark-cyan);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container, .row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+}
+.row{
+  height: auto;
+  width: 330px;
+  border-style: hidden;
+  /* border-color: black; */
+  /* border-width: thin; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-top{
+  height: 135px;
+  background-image: url("../images/bg-pattern-card.svg");
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card-name{
+  height: 140px;
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(153,153,153,0.4);
+}
+.card-name p:first-of-type{
+  margin-top: 80px;
+}
+.card-info{
+  height: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card-info p:last-of-type{
+  margin-top: 5px;
+}
+img{
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  margin-top: 55px;
+  background-color: white;
+}
+p:first-of-type{
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--very-dark-desaturated);
+  margin-bottom: 0;
+}
+p:last-of-type{
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+span{
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
